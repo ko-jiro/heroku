@@ -35,7 +35,9 @@ gem 'jbuilder', '~> 2.5'
 
 # この行を追加する
 gem "bootstrap-sass"
-
+gem 'jquery-rails'
+gem 'bcrypt'
+gem 'carrierwave'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
@@ -46,9 +48,6 @@ group :development, :test do
   gem 'pry-doc'
   gem 'pry-byebug'
   gem 'pry-stack_explorer'
-  gem 'jquery-rails'
-  gem 'bcrypt'
-  gem 'carrierwave'
 end
 
 group :development do
